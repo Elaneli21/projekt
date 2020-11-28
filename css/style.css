@@ -89,3 +89,8 @@
 {
     height: 300px !important;
 }
+
+.text-shadow
+{
+    text-shadow: 0px 1px rgb(68, 68, 68) !important ;
+}
