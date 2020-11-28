@@ -37,10 +37,15 @@
 
 .sticky-nav
 {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     z-index: 9;
+}
+
+.space
+{
+    height: 70px;
 }
 
 .home
@@ -68,11 +73,6 @@
 {
     margin-left: 10%;
     margin-right: 10%;
-}
-
-.content
-{
-    margin-top: 75px;
 }
 
 .card-image
