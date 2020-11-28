@@ -1,35 +1,91 @@
-body
+@media only screen and (max-width: 1000px) 
 {
-    font-family: Arial;
-    margin: 0;
+    .home-image
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .home-detail
+    {
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .title
+    {
+        text-align: center;
+    }
+
 }
 
-.header
+@media only screen and (min-width: 1000px) 
 {
-    position: sticky;
+    .home-image
+    {
+        float: left;
+    }
+
+}
+
+.blue-back
+{
+    background-color: #0051ff !important;
+}
+
+.sticky-nav
+{
+    position: fixed;
     top: 0;
     width: 100%;
-    height: 5vw;
-    box-shadow: 0px 1px darkgrey;
-    background-color: rgb(42, 99, 255);
+    z-index: 9;
 }
 
-.navbar
+.home
 {
-    float: right;
+    height: fit-content;
+    width: 100%;
 }
 
-.navbar-menu
+.home-image
 {
-    text-decoration: none;
-    color: white;
-    margin: 1vw;
+    padding: 0px 65px 20px 0px;
 }
 
-.navbar-content
+.home-detail
+{
+    text-align: justify;
+}
+
+.detail-text
+{
+    font-size: larger;
+}
+
+.compact-div
 {
     margin-left: 10%;
     margin-right: 10%;
-    
-    padding-top: 2vw;
+}
+
+.content
+{
+    margin-top: 75px;
+}
+
+.card-image
+{
+    width: 25%;
+}
+
+.card-details
+{
+    font-size:medium;
+}
+
+.card
+{
+    height: 300px !important;
 }

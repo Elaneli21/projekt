@@ -2,50 +2,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>PT AIR TECH</title>
 
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- #Navbar&Logo -->
-    <div class="header" id="header">
-        <div class="navbar-content" id="logo">
-            <img class="logo" src="" alt="">
-            <a href="index.html" class="navbar-menu">PT AIR TECH INTI KARAWACI INDONESIA</a>
-            
-            <div class="navbar" id="navbar">
-                <a href="#home" class="navbar-menu">Home</a>
-                <a href="#about" class="navbar-menu">About Us</a>
-                <a href="#products" class="navbar-menu">Products & Service</a>
-                <a href="#contacts" class="navbar-menu">Contacts</a>
-            </div>
+    <nav class="blue-back ">
+        <div class="nav-wrapper container ">
+            <a href="#" class="brand-logo ">PT Air Tech</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down compact-div">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products & Service</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
         </div>
-        
-    </div>
+
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">Javascript</a></li>
+          <li><a href="mobile.html">Mobile</a></li>
+        </ul>
+    </nav>
 
     <!-- #content-->
 
     <div class="web-content">
-        <div class="home" id="home">
-
+        
+        <div class="home container content" id="home">
+            <img src="img/home/image--004.jpg" alt="" class="home-image" >
+            <div class="home-detail">
+                <div class="title ">
+                    <h4> PT Air Tech </h4>
+                </div>
+                <p class="detail-text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
         </div>
         
-        <div class="about" id="about">
+        <div class="about container content " id="about">
+            <div class="title center">
+                <h4> About Us</h4>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m12 l6 ">
+                    <div class="card horizontal">
+                        <div class="card-image valign-wrapper">
+                            <img src="img/about us/image--002.png">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <li class="card-details">Our main operational office & spareparts outlet...</li>
+                                <li class="card-details">Address : Jalan Gajah Mada no. 167, Jakarta 11130, Indonesia.</li>
+                                <li class="card-details">Tel : +62 21 6006593 / 94</li>
+                                <li class="card-details">Fax : +62 21 5524941</li>
+                                <li class="card-details">Email : airtech@ptairtech.com</li>
+                            </div>
+                            <div class="card-action">
+                                <h5>Main Office</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m12 l6">
+                    <div class="card horizontal">
+                        <div class="card-image valign-wrapper">
+                            <img src="img/about us/image--005.png">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <li class="card-details">This is our registered business address & where all the works being carried out...</li>
+                                <li class="card-details">Address : Jalan Teuku Umar no. 20, Karawaci, Tangerang 15115, Indonesia.</li>
+                                <li class="card-details">Tel : +62 21 5525878 , 5524628</li>
+                                <li class="card-details">Fax : +62 21 5524941</li>
+                                <li class="card-details">Email : airtech@ptairtech.com</li>
+                            </div>
+                            <div class="card-action">
+                                <h5>Factory</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l6 ">
+                    <div class="card horizontal">
+                        <div class="card-image valign-wrapper">
+                            <img src="img/about us/image--004.jpg">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <li class="card-details">Just to name a few...</li>
+                                <li class="card-details">ARNEG, BITZER, BLUESCOPE, CASTEL, DIXELL, ebmpapst, EMERSON, FERMOD, FLEXELEC,</li>
+                                <li class="card-details">RDM, and many more...</li>
+                            </div>
+                            <div class="card-action">
+                                <h5>Partners / Supported by</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m12 l6">
+                    <div class="card horizontal">
+                        <div class="card-image valign-wrapper">
+                            <img src="img/about us/image--007.png">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <li class="card-details">This is our registered business address & where all the works being carried out...</li>
+                                <li class="card-details">Giant, Hero, Holland Bakery, Kem Chik, KFC, Lion Super Indo, Lotte, LuLu, McD, MultiMart,</li>
+                                <li class="card-details">Pepito, Ramayana, Ranch Market, Smart, Trans Retails Carrefour, and many more...</li>
+                            </div>
+                            <div class="card-action">
+                                <h5>Project Reference</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
-        <div class="products" id="Products">
+        <div class="products" id="products">
 
         </div>
 
-        <div class="contacts" id="Contacts">
+        <div class="contacts" id="contacts">
 
         </div>
         
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <noscript>Please turn on javascript in order to this page to work properly</noscript>
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+});
+    
+</script>
+<noscript>Please turn on javascript in order to this page to work properly</noscript>
+
 </body>
 </html>
