@@ -5,7 +5,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 75%;
     }
 
     .home-detail
@@ -19,16 +19,31 @@
         text-align: center;
     }
 
+    .text-shadow
+    {
+        font-size: small;
+    }
+
 }
 
-@media only screen and (min-width: 1000px) 
+@media only screen and (min-width: 1001px) 
 {
     .home-image
     {
         float: left;
     }
-
 }
+
+
+@media only screen and (min-width: 993px) 
+{
+    .card
+    {
+        height: 300px;
+    }
+}
+
+
 
 .blue-back
 {
@@ -82,12 +97,7 @@
 
 .card-details
 {
-    font-size:medium;
-}
-
-.card
-{
-    height: 300px !important;
+    font-size:small;
 }
 
 .text-shadow
