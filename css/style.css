@@ -1,0 +1,16 @@
+body
+{
+    margin: 0;
+}
+
+.header__navigation
+{
+    background-color: blue;
+}
+
+.header__container a
+{
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
